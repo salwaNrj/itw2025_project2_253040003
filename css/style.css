@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  height: auto;
+}
+/* ---------- H E A D E R ---------- */
+.navv {
+  background: rgba(95, 94, 94, 0);
+  border-radius: 30px;
+  margin: 0 15%;
+  padding: 14px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-link {
+  color: #fff;
+}
+.navv ul li a:hover {
+  color: #a73030;
+}
+.navbar-nav a:focus {
+  color: white;
+}
+/* ---------- P R O F I L E ---------- */
+.redd {
+  filter: blur(5px);
+  transition: all ease 0.7s;
+}
+.redd:hover {
+  filter: blur(0);
+}
+/* ---------- M E M B E R ---------- */
+.members {
+  padding: 4rem 0;
+}
+
+.member-card {
+  max-width: 230px;
+}
+
+.memb .card-body {
+  background-color: #a73030;
+  color: white;
+}
+.membb img {
+  filter: grayscale(105%);
+  transition: all ease 0.7s;
+}
+.membb img:hover {
+  filter: grayscale(0);
+}
+/* ---------- C A R E E R ---------- */
+.karir img {
+  width: 70%;
+  box-shadow: 1px 1px 15px rgba(250, 250, 250, 0.5);
+}
+.teks {
+  margin: 3% 16%;
+}
+/* ---------- D I S C O G R A P H Y ---------- */
+.owl-carousel .card {
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+
+.owl-carousel .card img {
+  width: 100%;
+  height: auto;
+}
+.albom {
+  /* background: radial-gradient(circle, #a73030, #000000); */
+  background-color: #a73030;
+  width: 100%;
+}
+.isinya {
+  margin-top: -55px;
+}
