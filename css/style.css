@@ -34,10 +34,11 @@ body {
 /* ---------- M E M B E R ---------- */
 .members {
   padding: 4rem 0;
+  margin: 0 15%;
 }
 
 .member-card {
-  max-width: 230px;
+  max-width: 300px;
 }
 
 .memb .card-body {
@@ -77,4 +78,8 @@ body {
 }
 .isinya {
   margin-top: -55px;
+}
+
+i:hover {
+  color: #a73030;
 }
