@@ -1,20 +1,23 @@
-CONTACT
-
-IMG
- 	Img source : Pinterest
- 	Edit on Canva
- 	Generate on GPT
- 	"Make this image more realistic 4k and change the 	background to #eb5757 	color"
+FONTS 
+  NAV : Bebas Neue Static
+  H2 : Vigo Static
+  P : Chakra Petch 
 
 SCRIPT
  	https://github.com/jamiewilson/form-to-google-sheets?tab=readme-ov-file#7-adding-	additional-form-data
  
  	NGOBAR#29 (WPU)
 
+LIBRARY 
+  https://owlcarousel2.github.io/OwlCarousel2/
+
+CONTACT
+ 	Img source : Their Insta
+ 	Edit on Canva
+ 	Generate on GPT
+ 	"Make this image more realistic 4k and change the 	background to #eb5757 	color"
 
 LANDING PAGE
-
-HERO
  	Img source :  thenote.com
  	Edit on Canva
  	Generate on GPT
@@ -42,6 +45,10 @@ CAREER
 
 DISCOGRAPHY
   Img source : https://genius.com/artists/Chase-atlantic/albums
+
+FOOTER 
+  Img source : Chase Atlantic Web.
+  Icons : Bootstrap 5
  
  
  
