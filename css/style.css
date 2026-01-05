@@ -2,6 +2,17 @@ body {
   background-color: black;
   height: auto;
 }
+h2 {
+  font-family: "Viga", sans-serif;
+}
+p {
+  font-family: "Chakra Petch", sans-serif;
+}
+header ul {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+}
+
 /* ---------- H E A D E R ---------- */
 .navv {
   background: rgba(95, 94, 94, 0);
@@ -26,15 +37,20 @@ body {
 /* ---------- P R O F I L E ---------- */
 .redd {
   filter: blur(5px);
-  transition: all ease 0.7s;
+  transition: all ease 0.5s;
 }
 .redd:hover {
   filter: blur(0);
+  transform: scale(1.1);
 }
 /* ---------- M E M B E R ---------- */
+/* view(<start> <end>) -  */
 .members {
   padding: 4rem 0;
   margin: 0 15%;
+  animation: muncul2 both;
+  animation-duration: 20s;
+  animation-timeline: view(50% auto);
 }
 
 .member-card {
@@ -56,6 +72,9 @@ body {
 .karir img {
   width: 70%;
   box-shadow: 1px 1px 15px rgba(250, 250, 250, 0.5);
+  animation: muncul2 both;
+  animation-duration: 20s;
+  animation-timeline: view(50% auto);
 }
 .teks {
   margin: 3% 16%;
@@ -72,7 +91,6 @@ body {
   height: auto;
 }
 .albom {
-  /* background: radial-gradient(circle, #a73030, #000000); */
   background-color: #a73030;
   width: 100%;
 }
@@ -82,4 +100,17 @@ body {
 
 i:hover {
   color: #a73030;
+}
+
+@keyframes muncul2 {
+  from {
+    filter: saturate(0) contrast(4) brightness(0.1) blur(5px);
+    opacity: 0;
+    scale: 1;
+  }
+  to {
+    filter: none;
+    opacity: 1;
+    scale: 1;
+  }
 }
